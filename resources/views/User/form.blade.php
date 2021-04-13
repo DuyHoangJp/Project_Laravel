@@ -32,10 +32,6 @@
             'label' =>  Form::label('level','Level',['class'=>$formLabelClass]),
             'element' =>Form::select('level', $levelValue, '',['class'=>$formInputClass]),
         ],
-        [
-            'label' =>  Form::label('level','Level',['class'=>$formLabelClass]),
-            'element' =>Form::select('level', $levelValue, '',['class'=>$formInputClass]),
-        ],
        
         [
             'label' =>  Form::label('fullname','Fullname',['class'=>$formLabelClass]),
